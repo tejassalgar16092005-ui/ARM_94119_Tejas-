@@ -1,0 +1,4 @@
+../Src/system_stm32f4xx.c:168:6:SystemInit	8	static
+../Src/system_stm32f4xx.c:223:6:SystemCoreClockUpdate	32	static
+../Src/system_stm32f4xx.c:756:6:SwDelayMs	0	static,ignoring_inline_asm
+../Src/system_stm32f4xx.c:767:10:DWT_Init	4	static,ignoring_inline_asm
