@@ -1,0 +1,5 @@
+../Core/Src/lcd.c:18:6:lcd_send_nibble	32	static
+../Core/Src/lcd.c:32:6:lcd_send_cmd	16	static
+../Core/Src/lcd.c:39:6:lcd_send_data	16	static
+../Core/Src/lcd.c:45:6:lcd_init	8	static
+../Core/Src/lcd.c:56:6:lcd_print	16	static

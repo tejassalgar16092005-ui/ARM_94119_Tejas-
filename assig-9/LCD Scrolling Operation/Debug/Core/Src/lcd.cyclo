@@ -1,0 +1,10 @@
+../Core/Src/lcd.c:18:13:lcd_i2c_write	1
+../Core/Src/lcd.c:23:13:lcd_send_nibble	1
+../Core/Src/lcd.c:31:13:lcd_send_cmd	1
+../Core/Src/lcd.c:38:13:lcd_send_data	1
+../Core/Src/lcd.c:46:9:lcd16x2_i2c_init	1
+../Core/Src/lcd.c:58:6:lcd16x2_i2c_clear	1
+../Core/Src/lcd.c:63:6:lcd16x2_i2c_setCursor	2
+../Core/Src/lcd.c:69:6:lcd16x2_i2c_printf	2
+../Core/Src/lcd.c:79:6:lcd16x2_i2c_scrollLeft	1
+../Core/Src/lcd.c:84:6:lcd16x2_i2c_scrollRight	1
