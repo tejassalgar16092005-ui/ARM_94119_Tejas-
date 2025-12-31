@@ -37,9 +37,9 @@ void Buzzer_Alert(void)
     {
         /* Alert ON */
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
-    	HAL_Delay(100);
+    	HAL_Delay(1000);
     	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);
-    	HAL_Delay(100);
+    	HAL_Delay(1000);
 
     }
     else

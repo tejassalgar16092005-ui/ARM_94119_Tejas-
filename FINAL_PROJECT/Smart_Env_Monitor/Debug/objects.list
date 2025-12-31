@@ -1,5 +1,6 @@
 "./Core/Src/MQ2.o"
 "./Core/Src/buzzer.o"
+"./Core/Src/dht.o"
 "./Core/Src/lcd.o"
 "./Core/Src/led.o"
 "./Core/Src/main.o"

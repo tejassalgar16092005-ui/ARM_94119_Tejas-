@@ -60,8 +60,8 @@ all: main-build
 main-build: Smart_Env_Monitor.elf secondary-outputs
 
 # Tool invocations
-Smart_Env_Monitor.elf Smart_Env_Monitor.map: $(OBJS) $(USER_OBJS) E:\New\ folder\Smart_Env_Monitor\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Smart_Env_Monitor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\New folder\Smart_Env_Monitor\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Env_Monitor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Smart_Env_Monitor.elf Smart_Env_Monitor.map: $(OBJS) $(USER_OBJS) E:\git\ assignment\ARM_94119_Tejas-\FINAL_PROJECT\Smart_Env_Monitor\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Smart_Env_Monitor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\git assignment\ARM_94119_Tejas-\FINAL_PROJECT\Smart_Env_Monitor\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Env_Monitor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

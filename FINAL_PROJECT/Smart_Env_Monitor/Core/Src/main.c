@@ -112,7 +112,26 @@ int main(void)
 	   Smoke_Monitor_detector();
 	    Led_Alert();
 	    Buzzer_Alert();
-	    HAL_Delay(500);   // LCD refresh interval
+	    HAL_Delay(500);
+	    LCD_Clear();
+
+	            if (DHT11_Read() == 0)
+	            {
+	                LCD_SetCursor(0, 0);
+	                sprintf(buf, "Temp:%d C", DHT11_Temperature);
+	                LCD_Print(buf);
+
+	                LCD_SetCursor(1, 0);
+	                sprintf(buf, "Hum :%d %%", DHT11_Humidity);
+	                LCD_Print(buf);
+	            }
+	            else
+	            {
+	                LCD_SetCursor(0, 0);
+	                LCD_Print("DHT11 ERROR");
+	            }
+
+	            HAL_Delay(2000);// LCD refresh interval
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
