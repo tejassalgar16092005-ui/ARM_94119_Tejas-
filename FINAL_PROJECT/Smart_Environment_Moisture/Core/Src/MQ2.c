@@ -2,7 +2,7 @@
  * MQ2.c
  *
  *  Created on: Dec 30, 2025
- *      Author: RITESH
+ *      Author: Tejas
  */
 #include "MQ2.h"
 
