@@ -2,7 +2,7 @@
  * buzzer.h
  *
  *  Created on: Dec 30, 2025
- *      Author: RITESH
+ *      Author: asus
  */
 
 #ifndef INC_BUZZER_H_
